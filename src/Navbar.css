@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+nav{
+    background-color: aquamarine;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    border: beige solid 2px;
+}
