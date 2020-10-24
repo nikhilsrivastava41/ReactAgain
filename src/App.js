@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
 import Navbar from './Navbar';
+import Card from './Cards';
+import Footer from './Footer';
 class App extends Component{
   state={
     c:0,
@@ -23,6 +25,11 @@ class App extends Component{
         <button onClick={this.increase}>Increase Count</button>
         <button onClick={this.decrease} >Decrease Count</button>
       </div>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Footer/>
     </div>
   }
 }

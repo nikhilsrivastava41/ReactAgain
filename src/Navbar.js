@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 function Navbar(){
+    let v=false;
     return (
         <div>
             <nav>
