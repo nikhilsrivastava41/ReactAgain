@@ -21,15 +21,15 @@ class App extends Component{
     return <div>
       <Navbar/>
       <div className="bor">
-        <h3>{this.state.c}</h3>
-        <button onClick={this.increase}>Increase Count</button>
-        <button onClick={this.decrease} >Decrease Count</button>
+        <h3>COUNTER: {this.state.c}</h3>
+        <button onClick={this.increase}>Increase Count 😃</button>
+        <button onClick={this.decrease} >Decrease Count 😢</button>
       </div>
       <Card/>
       <Card/>
       <Card/>
       <Card/>
-      <Footer/>
+      <Footer name="Nikhil" lname="Srivastava" year="2020"/>
     </div>
   }
 }

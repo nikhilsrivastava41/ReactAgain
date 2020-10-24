@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Footer=()=>{
+const Footer=(props)=>{
     return (
-        <div>
-            Copyright @Nikhil
+        <div style={{textAlign: "center"}}>
+            Copyright ©{props.year} {props.name} {props.lname}
         </div>
     )
 }
